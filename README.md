@@ -1,6 +1,6 @@
 # Culture accessible
 
-Site statique Astro publié sur [GitHub Pages](https://samuelguillemet.github.io/culture-accessible/).
+Site statique Astro publié sur [GitHub Pages](https://podcast-culture-accessible.github.io/culture-accessible/).
 
 ## Développement local
 
@@ -69,8 +69,8 @@ Le projet utilise Tailwind CSS 4 avec l’intégration Vite d’Astro. Ajoute le
 
 Le CMS est servi à `/culture-accessible/admin/` sur le site publié. Avant d’utiliser le bouton de connexion :
 
-1. Connecte l’application GitHub de Decap Turbo à `SamuelGuillemet/culture-accessible`.
-2. Dans les URL d’administration du site Turbo, autorise `https://samuelguillemet.github.io/culture-accessible/admin/`. Ajoute `http://localhost:4321/culture-accessible/admin/` pour le développement local.
+1. Connecte l’application GitHub de Decap Turbo à `podcast-culture-accessible/culture-accessible`.
+2. Dans les URL d’administration du site Turbo, autorise `https://podcast-culture-accessible.github.io/culture-accessible/admin/`. Ajoute `http://localhost:4321/culture-accessible/admin/` pour le développement local.
 3. Vérifie que le site Turbo utilise la branche `main` et le chemin de configuration `public/admin/config.yml`.
 4. Invite les éditeurs dans Turbo et attribue-leur l’accès au site.
 
