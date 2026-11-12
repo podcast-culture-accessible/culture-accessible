@@ -72,7 +72,7 @@ async function checkRoutes(page: Page, viewport: { width: number; height: number
       failures.push(
         ...results.violations.map(
           (violation) =>
-            `${route}: ${violation.impact ?? "unknown"} ${violation.id} — ${violation.help}; ` +
+            `${route}: ${violation.impact ?? "unknown"} ${violation.id} - ${violation.help}; ` +
             violation.nodes.map((node) => node.target.join(", ")).join(" | "),
         ),
       );
