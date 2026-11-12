@@ -1,16 +1,18 @@
-export const SITE_NAME = "Culture accessible";
+export const SITE_NAME = "Culture Accessible";
 
 export const LINKS = {
   instagram: "https://www.instagram.com/culture_accessible/",
   listen: "https://linktr.ee/CultureAccessible",
+  linkedin: "https://www.linkedin.com/company/culture-accessible-podcast/posts/",
   contactForm:
     "https://docs.google.com/forms/d/e/1FAIpQLScUTGkLmSRDfh_ZZI5uMgOmUX1bH0WiWno5FIcE69XBmXRZNw/viewform",
 } as const;
 
 export const NAV = [
   { label: "Accueil", path: "" },
-  { label: "Podcasts", path: "podcasts/" },
+  { label: "Épisodes", path: "podcasts/" },
   { label: "Ressources", path: "ressources/" },
+  { label: "À propos", path: "a-propos/" },
   { label: "Contact", path: "contact/" },
 ] as const;
 
