@@ -11,14 +11,16 @@ const episodes = (await getCollection("episodes", ({ data }) => !data.draft)).so
 ---
 
 <SiteLayout
-  title="Podcasts"
-  description="Tous les épisodes de Culture accessible, à écouter ou à regarder."
+  title="Épisodes"
+  description="Tous les épisodes de Culture Accessible, à écouter ou à regarder."
 >
   <section class="border-b-2 border-black bg-sky">
     <div class="mx-auto max-w-6xl px-6 py-14 sm:py-20">
-      <h1 class="m-0 text-4xl sm:text-6xl">Podcasts</h1>
+      <h1 class="m-0 text-4xl sm:text-6xl">Épisodes</h1>
       <p class="mt-5 max-w-2xl text-xl">
-        Choisissez un épisode pour l’écouter, le regarder et lire sa transcription.
+        Chaque épisode est dédié à un enjeu de l’accessibilité culturelle, qu’on explore avec des
+        invité.e.s qui militent à leur manière pour une société plus inclusive, qu’iels soient
+        concerné.e.s par le handicap, professionnel.le.s de la culture, de l’accessibilité…
       </p>
       <p class="mt-4">
         <ExternalLink href={LINKS.listen}>Écouter sur toutes les plateformes</ExternalLink>

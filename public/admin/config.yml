@@ -17,7 +17,7 @@ collections:
   - name: episodes
     label: Épisodes
     label_singular: Épisode
-    description: Chaque épisode apparaît sur la page Podcasts. Il faut au moins un lecteur, Spotify ou YouTube.
+    description: Chaque épisode apparaît sur la page Épisodes. Il faut au moins un lecteur, Spotify ou YouTube.
     folder: src/content/episodes
     create: true
     slug: "{{slug}}"

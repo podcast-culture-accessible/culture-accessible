@@ -1,8 +1,8 @@
-# Culture accessible — Architecture technique
+# Culture accessible - Architecture technique
 
 ## Astro + Decap CMS + GitHub Pages
 
-**Guide de mise en place — site associatif accessible et éditable sans développeur**
+**Guide de mise en place - site associatif accessible et éditable sans développeur**
 
 > **Objectif :** un site statique rapide, un domaine personnalisé, des publications autonomes par les bénévoles et une démarche de tests visant WCAG 2.2 niveau AA.
 
@@ -20,7 +20,7 @@ Le site est généré par Astro en HTML statique. Les contenus sont stockés dan
 | Decap CMS                    | Interface de saisie, gestion des médias, brouillons et publication sur GitHub via Turbo.                                           |
 | Backend/authentification CMS | Decap Turbo authentifie les contributeurs et relaie les modifications au dépôt ; les éditeurs n’ont pas besoin d’un compte GitHub. |
 | GitHub                       | Dépôt public recommandé avec GitHub Pages sur GitHub Free ; historique et contrôle des changements.                                |
-| GitHub Pages                 | Sert le dossier généré par Astro ; GitHub Actions construit et publie les changements de la branche `main`.                         |
+| GitHub Pages                 | Sert le dossier généré par Astro ; GitHub Actions construit et publie les changements de la branche `main`.                        |
 | Visiteurs                    | Reçoivent des pages statiques via CDN HTTPS ; aucun serveur applicatif n’est requis pour les pages publiques.                      |
 
 ## 3. Stack retenue
@@ -170,7 +170,7 @@ Ce code est un point de départ : les APIs de collections ont évolué entre ver
 - **Tests :** axe ou Lighthouse, puis tests manuels avec NVDA + Firefox et si possible VoiceOver ; teste l’accueil, un article, un podcast, À propos et Contact.
 - **Recette éditoriale :** contrôle les titres, liens, listes, tableaux, sous-titres et textes alternatifs avant publication.
 
-Références : [WCAG 2.2 — W3C](https://www.w3.org/TR/WCAG22/) et [documentation WAI](https://www.w3.org/WAI/standards-guidelines/wcag/).
+Références : [WCAG 2.2 - W3C](https://www.w3.org/TR/WCAG22/) et [documentation WAI](https://www.w3.org/WAI/standards-guidelines/wcag/).
 
 ## 13. YouTube et confidentialité
 
@@ -233,14 +233,14 @@ Budget cible : domaine payé annuellement ; hébergement et CMS potentiellement 
 
 ## 19. Documentation officielle
 
-- [Astro — déploiement GitHub Pages](https://docs.astro.build/en/guides/deploy/github/)
-- [GitHub Pages — limites](https://docs.github.com/en/pages/getting-started-with-github-pages/github-pages-limits)
-- [Decap CMS — documentation](https://decapcms.org/docs/)
-- [Decap Turbo — démarrage](https://decapcms.org/docs/turbo-getting-started/)
-- [Decap Turbo — connexion d’un site](https://decapcms.org/docs/turbo-connecting-a-site/)
-- [Decap Turbo — membres et rôles](https://decapcms.org/docs/turbo-roles-and-members/)
-- [Decap CMS — Git Gateway](https://decapcms.org/docs/git-gateway-backend/)
-- [Decap CMS — backend GitHub](https://decapcms.org/docs/github-backend/)
-- [W3C — WCAG](https://www.w3.org/WAI/standards-guidelines/wcag/)
+- [Astro - déploiement GitHub Pages](https://docs.astro.build/en/guides/deploy/github/)
+- [GitHub Pages - limites](https://docs.github.com/en/pages/getting-started-with-github-pages/github-pages-limits)
+- [Decap CMS - documentation](https://decapcms.org/docs/)
+- [Decap Turbo - démarrage](https://decapcms.org/docs/turbo-getting-started/)
+- [Decap Turbo - connexion d’un site](https://decapcms.org/docs/turbo-connecting-a-site/)
+- [Decap Turbo - membres et rôles](https://decapcms.org/docs/turbo-roles-and-members/)
+- [Decap CMS - Git Gateway](https://decapcms.org/docs/git-gateway-backend/)
+- [Decap CMS - backend GitHub](https://decapcms.org/docs/github-backend/)
+- [W3C - WCAG](https://www.w3.org/WAI/standards-guidelines/wcag/)
 
 > **À valider avant la mise en ligne :** active GitHub Pages avec la source GitHub Actions, puis teste une publication de bout en bout depuis Turbo.
